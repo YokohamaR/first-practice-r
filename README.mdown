@@ -1,0 +1,34 @@
+First practice R
+=====
+
+はじめてのR
+
+このリポジトリはYokohama.R参加者の初心者講習のためのリポジトリです。
+
+以下の内容は、すでにRおよびRStudioのインストールが済んでいることが前提となります。
+
+## 環境
+
+* Windows
+    * OS: Windows 7 Home Premium
+    * R: 3.1.0
+    * RStudio: 
+* Mac
+    * OS: Mac OS X 10.9.3
+    * R: 3.1.0
+    * RStudio: 
+
+## 準備・使い方
+
+1. このリポジトリをclone... 適当なフォルダをclone先として作成してください
+    * ここではデスクトップ上に`first-practice-r`という名前のフォルダをclone先として作成します。
+    * すでにいくつかのファイルがあります。`README.mdown`はこのファイルです	
+2. `RStudio`を起動し、`first-practice-r`を作業フォルダとする
+    * Windows:  `setwd("C:Users/****/Desktop/first-practice-r/")`
+    * Mac:      `setwd("/Users/****/Desktop/first-practice-r/")`
+        * \****の部分はパソコンで使用しているユーザー名です
+3. `RStudio`のメニューバーから、File -> New File -> R Markdownを選択し、新規ファイルを作成します
+    * Titleは「`はじめてのR`」とでもしてください（適当で構いません）
+    * Authorには自分の名前を入力します
+    * OutputはHTMLを選択します
+4. 一旦ファイルに名前をつけて保存します。他の人のファイルと混同しないよう、ファイル名を`practice-su.R`、`practice-shinya-uryu.R`といった感じで自分の名前もしくはイニシャルをつけてください

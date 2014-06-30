@@ -1,0 +1,57 @@
+---
+title: "はじめてのR"
+author: "Shinya Uryu"
+date: "2014年6月30日"
+output: html_document
+---
+
+```{r, global_option, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  warning=FALSE,
+  message=FALSE,
+  fig.path="figure/")
+```
+
+```{r, eval=FALSE}
+install.packages("devtools", dependencies=T)
+devtools::install_github("rstudio/rmarkdown")
+```
+
+
+
+```{r}
+1 + 3
+```
+
+```{r}
+a <- c(1, 2, 3)
+a
+```
+
+```{r}
+b <- c(4, 5, 6)
+a + b
+```
+
+```{r}
+a * b
+```
+
+```{r}
+mean(b)
+```
+
+* * *
+
+```{r}
+data(iris)
+head(iris)
+```
+
+* * * 
+
+```{r, eval=FALSE}
+purl("practice-su.Rmd")
+```
+
